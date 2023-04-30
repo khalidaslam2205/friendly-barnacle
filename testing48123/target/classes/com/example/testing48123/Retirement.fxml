@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" spacing="10" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17" fx:controller="com.example.testing48123.RetirementController">
+    <Label text="Retirement Form"/>
+    <GridPane hgap="10" vgap="10">
+        <Label text="Runner ID:" GridPane.columnIndex="0" GridPane.rowIndex="0"/>
+        <TextField fx:id="runnerIdField" GridPane.columnIndex="1" GridPane.rowIndex="0"/>
+        <Label text="Reason for Retirement:" GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+        <TextField fx:id="retirementReasonField" GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+        <Label text="Responsible Person:" GridPane.columnIndex="0" GridPane.rowIndex="2"/>
+        <TextField fx:id="responsiblePersonField" GridPane.columnIndex="1" GridPane.rowIndex="2"/>
+    </GridPane>
+    <Button fx:id="saveRetirementButton" text="Save Retirement"/>
+</VBox>

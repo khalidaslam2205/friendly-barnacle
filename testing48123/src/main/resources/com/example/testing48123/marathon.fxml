@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.util.Duration?>
+
+<GridPane hgap="10" prefHeight="200.0" prefWidth="400.0" vgap="10.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.testing48123.MarathonController">
+    <Label text="Runner ID:" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+    <TextField fx:id="runnerIdField" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+
+    <Label text="Checkpoint Time:" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+    <Label fx:id="checkpointTimeLabel" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+
+    <Button text="Submit" onAction="#submitCheckpoint" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+
+    <Label text="Marathon Time:" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+    <Label fx:id="marathonTimeLabel" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+
+</GridPane>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane hgap="10" prefHeight="354.0" prefWidth="401.0" vgap="10" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.testing48123.ProfileViewerController">
+   <Label text="Runner ID:" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+   <TextField fx:id="runnerTxt" GridPane.columnIndex="3" />
+
+   <Label text="First Name:" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+   <TextField fx:id="firstTxt" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+
+   <Label text="Last Name:" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+   <TextField fx:id="lastTxt" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+
+   <Label text="Age:" GridPane.columnIndex="0" GridPane.rowIndex="3" />
+   <TextField fx:id="ageTxt" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+
+   <Label text="Gender:" GridPane.columnIndex="0" GridPane.rowIndex="5" />
+   <TextField fx:id="genderTxt" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+
+   <Label text="Height:" GridPane.columnIndex="0" GridPane.rowIndex="4" />
+   <TextField fx:id="heightTxt" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+
+   <Label text="Weight:" GridPane.columnIndex="0" GridPane.rowIndex="6" />
+   <TextField fx:id="weightTxt" GridPane.columnIndex="3" GridPane.rowIndex="6" />
+
+   <Button onAction="#handleBackButtonAction" text="Back" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+   <Button onAction="#searchButtonAction" text="Search" GridPane.columnIndex="3" GridPane.rowIndex="8" />
+   <Button fx:id="clearBtn" layoutX="424" layoutY="80" mnemonicParsing="false" onAction="#clearButtonAction" text="Clear" GridPane.rowIndex="8" />
+
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+</GridPane>

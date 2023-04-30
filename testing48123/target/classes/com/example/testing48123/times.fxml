@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane hgap="10" prefHeight="354.0" prefWidth="401.0" vgap="10" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.testing48123.timesController">
+    <Label text="Runner ID:" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+    <TextField fx:id="runnerTxt" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+
+    <Button onAction="#searchButtonAction" text="Search" GridPane.columnIndex="2" GridPane.rowIndex="0" />
+
+    <Label text="Times:" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+    <VBox fx:id="timesVBox" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+
+    <Button onAction="#handleBackButtonAction" text="Back" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+
+    <columnConstraints>
+        <ColumnConstraints />
+        <ColumnConstraints />
+        <ColumnConstraints />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints />
+    </rowConstraints>
+</GridPane>

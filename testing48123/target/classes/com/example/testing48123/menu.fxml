@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.testing48123.MenuController">
+   <children>
+      <VBox layoutX="179.0" layoutY="81.0" prefHeight="200.0" prefWidth="100.0" spacing="40.0">
+         <children>
+            <Button fx:id="startClockBtn" mnemonicParsing="false" onAction="#startClock" text="Start Clock" />
+            <Button fx:id="createProfileBtn" mnemonicParsing="false" onAction="#createProfile" text="Create Profile" />
+            <Button fx:id="viewProfileBtn" mnemonicParsing="false" onAction="#viewProfile" text="View Profile">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="timesBtn" mnemonicParsing="false" onAction="#viewTimes" text="View Times" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
